@@ -1,0 +1,181 @@
+{
+    "title": "Login Flow",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1365,
+            "height": 945,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://birthdayhub-2.preview.emergentagent.com/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://birthdayhub-2.preview.emergentagent.com/",
+                    "title": "Emergent | Fullstack App"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "[data-testid='login-email-input']"
+                ],
+                [
+                    "xpath///*[@data-testid=\"login-email-input\"]"
+                ],
+                [
+                    "pierce/[data-testid='login-email-input']"
+                ]
+            ],
+            "offsetY": 26.5,
+            "offsetX": 101
+        },
+        {
+            "type": "change",
+            "value": "admin@awesomeplace.shop",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "[data-testid='login-email-input']"
+                ],
+                [
+                    "xpath///*[@data-testid=\"login-email-input\"]"
+                ],
+                [
+                    "pierce/[data-testid='login-email-input']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyDown",
+            "target": "main",
+            "key": "Tab"
+        },
+        {
+            "type": "keyUp",
+            "key": "Tab",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "A",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "[data-testid='login-password-input']"
+                ],
+                [
+                    "xpath///*[@data-testid=\"login-password-input\"]"
+                ],
+                [
+                    "pierce/[data-testid='login-password-input']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "a",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "Admin@123",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "[data-testid='login-password-input']"
+                ],
+                [
+                    "xpath///*[@data-testid=\"login-password-input\"]"
+                ],
+                [
+                    "pierce/[data-testid='login-password-input']"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Sign In"
+                ],
+                [
+                    "[data-testid='login-submit-button']"
+                ],
+                [
+                    "xpath///*[@data-testid=\"login-submit-button\"]"
+                ],
+                [
+                    "pierce/[data-testid='login-submit-button']"
+                ]
+            ],
+            "offsetY": 13.5,
+            "offsetX": 216
+        },
+        {
+            "type": "click",
+            "target": "chrome-extension://aeblfdkhhhdcdjpifhhbdiojplfjncoa/inline/notification/notification.html?tutorialMode=false&notificationId=1du0u4n&language=en&maxNotificationHeight=881",
+            "selectors": [
+                [
+                    "aria/Close",
+                    "aria/[role=\"graphics-symbol\"]"
+                ],
+                [
+                    "div.sprinkles_width_min-content_xs__omrdfn26o path"
+                ],
+                [
+                    "xpath///*[@id=\"notification-title-bar\"]/div[3]/div[1]/button/span/span/svg/path"
+                ],
+                [
+                    "pierce/div.sprinkles_width_min-content_xs__omrdfn26o path"
+                ]
+            ],
+            "offsetY": 1,
+            "offsetX": 8
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Logout"
+                ],
+                [
+                    "header button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/div[2]/button"
+                ],
+                [
+                    "pierce/header button"
+                ],
+                [
+                    "text/Logout"
+                ]
+            ],
+            "offsetY": 12,
+            "offsetX": 45.03125
+        }
+    ]
+}
